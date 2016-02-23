@@ -2,7 +2,7 @@
 function randomNumber() {
    var mathRandom =  Math.floor(Math.random()* 8+1);
 
-
+console.log(mathRandom);
 
  if (mathRandom === 1) {
     document.getElementById("quote").innerHTML = "A balanced diet is a cupcake in each hand.";
@@ -13,7 +13,7 @@ function randomNumber() {
   } else if (mathRandom === 4) {
     document.getElementById("quote").innerHTML = "A party without cake is just a meeting."; 
   } else if (mathRandom === 5) {
-    document.getElementById("quote").innerHTML = "Never underestimate the power of chocolate"; 
+    document.getElementById("quote").innerHTML = "Never \ underestimate \ the power of chocolate."; 
   } else if (mathRandom === 6) {
     document.getElementById("quote").innerHTML = "You cannot buy happiness, but you can buy a cupcake and they are the same thing."; 
   } else if (mathRandom === 7) {
