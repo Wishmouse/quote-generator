@@ -1,1 +1,38 @@
-h1{color: red;}
+body{
+  font-size: 18px;
+  font-family: Raleway;
+  margin-right:150 px;
+  margin-left: 150px;
+    }
+
+
+h1{text-align: center;
+    background: #F39BAD;
+    color: white;
+    padding: 30px;}
+
+
+button{font-family: harrington; 
+    background: #97D7E6;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 100px;
+    color: white;}
+
+
+p{  font-family: harrington; 
+    font-size: 65px;
+    padding: 30px;
+    margin: 40px;
+    background: #97D7E6;
+    width: 550px;
+    height: 250px;
+    border-radius: 25px;
+    color: white;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
