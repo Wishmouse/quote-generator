@@ -1,7 +1,10 @@
-var newQuote = document.getElementById("quote").onclick = Math.random();
+//var newQuote = document.getElementById("quote").onclick = Math.random();
 
+function randomNumber() {
+    document.getElementById("quote").onclick = console.log(Math.random());
+}
 
-
+var newQuote = randomNumber();
 
 
 
@@ -37,7 +40,7 @@ var newQuote = document.getElementById("quote").onclick = Math.random();
     return "quote10";
     break;
 
-}
+} */
 
 
 
