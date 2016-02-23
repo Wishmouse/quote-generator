@@ -15,7 +15,7 @@ function randomNumber() {
   } else if (mathRandom === 5) {
     document.getElementById("quote").innerHTML = "Never underestimate the power of chocolate"; 
   } else if (mathRandom === 6) {
-    document.getElementById("quote").innerHTML = "You cannot buy happines, but you can buy a cupcake and they are the same thing."; 
+    document.getElementById("quote").innerHTML = "You cannot buy happiness, but you can buy a cupcake and they are the same thing."; 
   } else if (mathRandom === 7) {
     document.getElementById("quote").innerHTML = "I want to have a good body, just not as much as I want dessert.";
   } else {
