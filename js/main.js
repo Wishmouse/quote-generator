@@ -21,7 +21,9 @@ console.log(mathRandom);
   } else {
     document.getElementById("quote").innerHTML = "Happiness is eating dessert before lunch.";
   }
+  $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + mathRandom);
 };
+
 
 /*
 switch (newQuote) {
