@@ -11,16 +11,31 @@
 </head>
 
 <body>
-      <h1>Sugary quotes</h1>
-<img src="css/matilda.jpg" alt="cupcake" style="max-width:100%">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-  <button onclick="randomNumber()">Click for Happy Thoughts</button>
+  <h1>Sugary quotes</h1>
+    <img src="css/matilda.jpg" alt="cupcake" style="max-width:100%">
+      <button onclick="randomNumber()">Click for Happy Thoughts</button>
+  
 
 
-  <h4><p id="quote"></p></h4>
+      <h4><p id="quote"></p></h4>
 
-  <a class="twitter-share-button" href="https://twitter.com/intent/tweet/?text=" data-size="large">
-      <button type="button" class="btn btn-primary">Tweet this!</button></a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Sugary Quotes" data-size="large" data-hashtags="letthemeatcake">Tweet</a>
+
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+    
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+   
+      
      
 </body>
 </html>
